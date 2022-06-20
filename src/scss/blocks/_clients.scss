@@ -1,0 +1,21 @@
+.clients {
+    min-height: 300px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        margin-bottom: 90px;
+        text-align: center;
+        
+    }
+
+    &__logo {
+        img {
+            width: 120px;
+            height: 30px;
+        }
+    }
+}
