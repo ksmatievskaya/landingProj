@@ -1,7 +1,7 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/fonts';
+@import './libs/bootstrap-reboot.min';
+@import './libs/fonts';
 
-@import 'base/variables';
+@import './base/variables';
 
 * {
     font-family: 'norwester', sans-serif;
@@ -12,12 +12,12 @@
     margin: 0 auto;
 }
 
-@import 'blocks/promo';
-@import 'blocks/advantages';
-@import 'blocks/services';
-@import 'blocks/about';
-@import 'blocks/clients';
-@import 'blocks/form';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/media';
+@import './blocks/promo';
+@import './blocks/advantages';
+@import './blocks/services';
+@import './blocks/about';
+@import './blocks/clients';
+@import './blocks/form';
+@import './blocks/footer';
+@import './blocks/modal';
+@import './blocks/media';
