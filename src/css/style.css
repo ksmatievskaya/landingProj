@@ -553,7 +553,7 @@ progress {
   margin-top: 10px;
 }
 .promo__submit:hover {
-  background-color: #689ffc;
+  background-color: #5e9aff;
 }
 .promo__img img {
   width: 100%;
@@ -821,6 +821,9 @@ progress {
   width: 40px;
   height: 40px;
 }
+.about__prev:hover, .about__next:hover {
+  border: 2px solid black;
+}
 .about__prev {
   margin-right: 45px;
 }
@@ -897,6 +900,9 @@ progress {
   border: none;
   background-color: #4385F5;
   color: #fff;
+}
+.form__form-btn:hover {
+  background-color: #5e9aff;
 }
 .form__wrapper {
   display: grid;
