@@ -52,6 +52,10 @@
             border: none;
             background-color: $main-color;
             color: #fff;
+
+            &:hover {
+                background-color: #5e9aff;
+            }
         }
     }
 

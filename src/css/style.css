@@ -484,7 +484,7 @@ progress {
 .promo .header__logo {
   font-family: "nexa", sans-serif;
   width: 210px;
-  height: 300px;
+  height: 100px;
   background-color: #4385F5;
   font-weight: 400;
   color: #fff;
@@ -552,6 +552,9 @@ progress {
   height: 40px;
   margin-top: 10px;
 }
+.promo__submit:hover {
+  background-color: #689ffc;
+}
 .promo__img img {
   width: 100%;
 }
@@ -560,6 +563,8 @@ progress {
   position: absolute;
   top: 20px;
   right: 30px;
+}
+.hamburger__icon {
   height: 21px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,11 +581,25 @@ progress {
           align-items: flex-end;
   cursor: pointer;
 }
-.hamburger span {
+.hamburger__icon span {
   display: none;
   width: 30px;
   height: 3px;
   background: #4385F5;
+}
+.hamburger__menu {
+  display: none;
+  margin-top: 50px;
+}
+.hamburger__menu ul {
+  list-style: none;
+}
+.hamburger__menu ul a {
+  color: #000;
+}
+
+.show {
+  display: block;
 }
 
 .advantages {
